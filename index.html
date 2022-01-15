@@ -5,7 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Influencer | Products</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
@@ -14,20 +20,24 @@
     />
   </head>
   <body>
+    <!-- top header -->
     <header class="header-section">
+      <!-- navigation bar -->
       <nav class="nav-bar">
         <span class="logo">Innovation Products</span>
         <ul class="items">
           <li class="item">Home</li>
-          <li class="item">Products</li>
           <li class="item">Sign up</li>
-          <li class="item"><i class="fas fa-search"></i></li>
-          <li class="item"><i class="fas fa-shopping-cart"></i></li>
+          <li class="item">
+            <img src="images/iconmonstr-shopping-cart-2.svg" alt="" />
+          </li>
         </ul>
       </nav>
+
+      <!-- banner section -->
       <div class="header-intro">
         <div class="banner-left">
-          <h1 class="header-title">Welcome to our cenamatic world</h1>
+          <h1 class="banner-title">Start your Journey as Influencer</h1>
           <p>
             We provide best quality products all around in Bangladesh.You can
             buy your favourite gadget from our store.
@@ -43,7 +53,10 @@
         </div>
       </div>
     </header>
+
+    <!-- main-container -->
     <main class="section-main">
+      <!-- components  -->
       <section class="component">
         <h2>Popular Collection</h2>
         <div class="cards">
@@ -250,17 +263,44 @@
           ></span>
         </div>
       </section>
-      <section></section>
+
+      <!-- bottom-section -->
+
+      <section class="bottom-section">
+        <div class="left-side">
+          <h1 class="banner-title">You can Sign up our website.</h1>
+          <p>
+            Heighly recomend for sign up or log-in.You can see products update
+            and exclusive gadget.Happy shoping
+          </p>
+          <button class="btn btn-extra">
+            Sign-up <i class="fas fa-sign-in-alt"></i>
+          </button>
+          <button class="btn btn-extra">
+            About us <i class="fas fa-info-circle"></i>
+          </button>
+        </div>
+        <div class="right-side">
+          <div class="banner-image">
+            <img src="images/—Pngtree—.png" alt="" />
+          </div>
+        </div>
+      </section>
     </main>
+
+    <!-- footer -->
+
     <footer>
       <div>
         <h3>Influencer Products</h3>
         <p>Copyright &copy; Influencer Products</p>
         <p>All rights reserved</p>
-        <span class="icon"><i class="fab fa-linkedin"></i></span>
-        <span class="icon"><i class="fab fa-facebook"></i></span>
-        <span class="icon"> <i class="fab fa-twitter"></i> </span>
-        <span class="icon"><i class="fab fa-youtube"></i></span>
+        <div>
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
       </div>
     </footer>
   </body>
